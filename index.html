@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2DoorsProjekt</title>
+    <script src="app.js" async></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "username">
+        <img src="" alt=""><input id="name-input" type="text" placeholder="...">
+        <br>
+      <button id="button1" type=button onclick="sayName()">ENTER USER</button>
+        </div>
+      <h1 id = "message-main"></h1>
+      <div id="IntroArea">
+        <img id="hazard" src="https://cutewallpaper.org/21/hacker-logo-wallpaper/Wallpaper-text-logo-Mr-Robot-hacking-brand-fsociety-.png" alt="haz" height="">
+        <img id="techmo"src="https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png" alt="Hacker_Techno">
+        <img id="hazard" src="https://cutewallpaper.org/21/hacker-logo-wallpaper/Wallpaper-text-logo-Mr-Robot-hacking-brand-fsociety-.png" alt="">
+        <p id="Intro">
+          Greetings User, my name is Techn0M@nc3r, memelord of the DarkWeb. In order to prove your worth, choose a door. One door leads to valuable data to add to your collection, 
+          but the other is a wild virus that can corrput your data. Choose Wisely User... 
+        </p>
+        <div class="door-container">
+      <div class="door" id="left-door">
+      <button class ="button" id="left-button" onclick="chooseRandomDoor('left')">CLICK</button>
+        </div>
+        <div class="door-container">
+      <div class="door" id="right-door">
+      <button class="button" id="right-button" onclick="chooseRandomDoor('right')">CLICK</button>
+        </div>
+        </div>
+      <img id = "doggoCoin" src="https://cdn.cfr.org/sites/default/files/styles/large_xl_2x_680/public/image/2021/09/Crypto_OG.jpg" alt="DoggoCoin">
+        <p id="win-result">Well done, you've found the serial numbers to the rare Doggo_BitCoin. A worthy find indeed, most users in the DarkWeb would kill to obtain it. Treat yourself, afterall, hackers take what's theirs...</p>
+      <img id="firewall" src="https://img.freepik.com/premium-photo/computer-server-got-attacked-with-malware-by-hacker-binary-death-skull-symbol-alert-screen-network-data-security-system-futuristic-digital-server-cybersecurity-threats-3d-illustration_44651-638.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696636800&semt=ais"alt="Fire_Wall">
+        <p id="loss-result">Too bad, you lose some, and you win some. Seems that this wasn't your day. Accounts can be made, but your mistakes haunt you...</p>
+      
+      <button id="try-again" onclick="sayName()">PLAY AGAIN</button>
+      
+</body>
+</html>

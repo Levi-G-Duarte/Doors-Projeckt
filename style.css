@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0; 
+  }
+  body{
+    background-image: url("https://insiderguides.com.au/wp-content/uploads/2018/09/abstract-access-close-up-1089438-1024x683.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height: 1100px;
+    width: 100vw;
+    text-align:center;
+    color:white;
+  }
+  h1{
+    display:none;
+  }
+  #IntroArea{
+    display:none;
+  }
+  #hazard{
+    height:100px;
+    width:100px;
+    animation:spinHazard 2s infinite linear;
+  }
+  #techmo{
+    height:300px;
+    width:300px;
+  }
+  #Intro{
+    font-size:1.4rem;
+    margin-top:5%;
+  }
+  
+  
+  div.door-container{
+    display:inline;
+  }
+  div.door{
+    display:inline-block;
+    margin-left:5%;
+    margin-right:5%;
+    background-image:url("https://www.asil.org/sites/default/files/styles/insights/public/insight20150106.jpg?itok=_bByt_mk");
+    background-size:cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width:200px;
+    height:300px;
+    
+  }
+  .button{
+  height:100px;
+  width:100px;
+  margin-top:50%;
+  border-radius:50px;
+  border: 5px solid green;
+  background-color:darkgreen;
+  color: white;
+  }
+  #win-result{
+    display:none;
+    color:lightgreen;
+    font-size:20px;
+  }
+  #loss-result{
+    display:none;
+    color:rgb(255, 72, 72);
+    font-size:20px;
+      
+  }
+  #doggoCoin{
+    margin-left:37%;
+    display:none;
+    height:300px;
+    width:500px;
+  }
+  #firewall{
+    margin-left:39%;
+    display:none;
+    height:350px;
+    width: 400px;
+  }
+  #try-again{
+    margin-left:47%;
+    height: 100px;
+    width: 100px;
+    color:white;
+    border-radius: 50px;
+    border: 5px solid red;
+    background-color:red;
+    display:none;
+  }
+  
+  @keyframes spinHazard{
+    0%{
+      transform:rotate(0deg)
+    }
+    100%{
+      transform:rotate(360deg)
+    }
+  }
+  
+  
